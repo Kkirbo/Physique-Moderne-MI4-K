@@ -44,7 +44,7 @@ def simuler_effet_tunnel(a_barrier, animer=False):
         lap[1:-1] = Psi[n, 2:] - 2 * Psi[n, 1:-1] + Psi[n, :-2]
         Psi[n + 1] = Psi[n] + dt * (coeff * lap + pot_coeff * Psi[n])           
     density = np.abs(Psi)**2
-    if animer:
+    if animer: #test
         fig, ax = plt.subplots(figsize=(10, 5))
         ax.set_xlim(x_min * 1e9, x_max * 1e9)
         hauteur_max = np.max(density[0])
