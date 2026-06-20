@@ -18,7 +18,7 @@ times = np.linspace(0, t_max, nt)
 
 V0 = 5 * 1.6e-19 #5eV
 
-# Paramètres du paquet d'onde initial (Reculé à -12 nm)
+
 x0_paquet = -12e-9
 largeur_paquet = 1e-9  
 gamma = largeur_paquet**2 / 4
@@ -33,7 +33,7 @@ def simuler_effet_tunnel(a_barrier, animer=False):
     if a_barrier > 0:
         V[(x >= x1) & (x <= x2)] = V0
     
-    # Initialisation de la fonction d'onde
+
     Psi = np.zeros((nt, nx), dtype=complex)
     Psi[0] = N * np.exp(-((x - x0_paquet)**2) / (4 * gamma)) * np.exp(1j * k0 * x)
     
