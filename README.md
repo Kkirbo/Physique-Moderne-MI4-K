@@ -31,8 +31,8 @@ Le projet est composé des scripts suivants :
 * **Fonctionnalités :** Un paquet d'ondes initial est projeté contre une barrière de potentiel rectangulaire d'une hauteur $V_0 = 5 \text{ eV}$. Le script propose une animation de la transmission et de la réflexion de la densité de probabilité à travers la barrière.
 
 ### 4. `temps-caractéristique.py`
-* **Description :** Étude théorique et graphique de l'**effet Hartman**.
-* **Fonctionnalités :** Compare le temps de traversée classique d'une particule libre face au temps de traversée quantique par effet tunnel en fonction de l'épaisseur de la barrière ($a$). Met en évidence la saturation du temps de traversée pour les barrières épaisses (vitesse de phase quasi-infinie).
+* **Description :** Étude de l'évolution du temps de parcours de particules au cours du temps
+* **Fonctionnalités :** Compare le temps de traversée classique d'une particule libre face au temps de traversée quantique par effet tunnel en fonction de l'épaisseur de la barrière ($a$). Met en évidence la saturation du temps de traversée pour les barrières épaisses.
 
 ---
 
